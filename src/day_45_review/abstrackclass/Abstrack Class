@@ -1,0 +1,13 @@
+Abstraction
+
+1-Abstrack class tan nesne üretemeyiz
+2-Abstrack classtan implementasyon yapılamaz body si yok
+3-ilk concret clas implementasyonu yapmak zorunda ve override yapmak zorunda
+4-abstrack class da non abstrack method olabilir
+5-abstrack class a constractor eklenebilir
+6-abstrack class a static üyeler eklenebilir
+7-abstrack class başka bir abstrack clasa extend olabilir
+8-abstrack clasa extends olan abstrack clasın parent clastaki abstrac metotları override yapma zorunluluğu yoktur.
+    -ancak override yapabilir, yaparsa child olan abstrack classın override yapmasına gerek kalmaz.
+9-Abstract metodlar final , private ve static olamaz
+10-Abstract claslar protected olabilir

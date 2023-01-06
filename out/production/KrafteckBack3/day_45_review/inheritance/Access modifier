@@ -1,0 +1,28 @@
+there are 4 access modifier in java
+-public
+-protected
+-default
+-private
+
+*veriable-constructor-method
+
+**** public ****
+the access level is everywhere
+    -current class-outside the current class-within package-outside package
+
+**** default ****
+the access level is only within same package
+if we don't type access modifier, it will be default
+
+****protected****
+the access level is within same package or
+child class can reach parent clas, even if it is outside the package
+
+****private****
+the access level is in only same class
+
+**private constructor role**
+you can not create the instance out of class
+
+**local veriable**
+don't have access modifier
