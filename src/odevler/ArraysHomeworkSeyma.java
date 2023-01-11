@@ -1,10 +1,12 @@
 package odevler;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
 public class ArraysHomeworkSeyma {
     public static void main(String[] args) {
+
 
     //   System.out.println(soru_1(a));
     //   System.out.println(soru_2(a));
@@ -42,7 +44,7 @@ public class ArraysHomeworkSeyma {
     //   System.out.println(soru_14(a14));
 
         int[] a15={55,5,88,8,85,8,5,55,5};
-       System.out.println(soru_15(a15));      // çalışıyor ama kısa yolunu sor     //Stringle yapmışım, arrayle dene
+    //   System.out.println(soru_15(a15));      // çalışıyor ama kısa yolunu sor     //Stringle yapmışım, arrayle dene
 
         int[] a16={2,4,3,5,3,8,8};
     //   System.out.println(soru_16(a16));      // çalışıyor ama kısa yolunu sor
@@ -84,8 +86,8 @@ public class ArraysHomeworkSeyma {
     //   System.out.println(Arrays.toString(soru_26(a26)));
 
 
-
     }
+
     public static int[] soru_26(int [] arry){
         int[] newArry= Arrays.copyOf(arry,arry.length);
         int bir=0;

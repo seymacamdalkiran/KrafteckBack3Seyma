@@ -38,7 +38,8 @@ public class WrapperTasks {
         String str="SaLih hOCa";
         System.out.println(upperLower(str));
 
-        System.out.println(sum(listOfNums));
+
+   /*     System.out.println(sum(listOfNums));
 
         System.out.println(listOfNums);
         System.out.println(duplicate(listOfNums));
@@ -105,20 +106,10 @@ public class WrapperTasks {
     public static void printListNumbers(ArrayList<Integer> add){
         for (Integer I: add) {
             System.out.print(I+" ");
-        }
+
+
+        } */
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
     public static String upperLower(String str){
         String degisim="";
